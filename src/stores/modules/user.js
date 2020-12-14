@@ -8,7 +8,7 @@ export default {
         // eslint-disable-next-line no-unused-vars
         LOGIN:({commit},payload)=>{
 return new Promise((resolve,reject)=>{
-axios.post('https:/api.truth.orabi.me/auth/login',payload)
+axios.post('https://api.truth.orabi.me/auth/login',payload)
 // eslint-disable-next-line no-unused-vars
 .then(({data,status})=>{
     if(status===200){
