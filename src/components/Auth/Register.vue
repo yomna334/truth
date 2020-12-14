@@ -76,7 +76,7 @@ export default {
     onSubmit(evt) {
       evt.preventDefault();
       alert(JSON.stringify(this.form));
-      axios.post('https:/api.truth.orabi.me/auth/register',this.form)
+      axios.post('https://api.truth.orabi.me/auth/register',this.form)
       .then(function(res){
         console.log(res)
         
